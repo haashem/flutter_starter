@@ -1,0 +1,28 @@
+name: sky_store_starter
+description: "Sky Store Flutter app"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.5.3 <4.0.0'
+  flutter: '>=3.22.0 <4.0.0'
+
+dependencies:
+  authentication:
+    path: ../authentication
+  browse:
+    path: ../browse
+  flutter:
+    sdk: flutter
+  flutter_secure_storage: ^9.2.2
+  go_router: ^14.3.0
+  playback:
+    path: ../playback
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^2.3.0
+
+flutter:
+  uses-material-design: true
